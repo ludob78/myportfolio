@@ -9,6 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import LanguagesSwitch from "./languages-switch";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -30,6 +31,8 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
+          </motion.div>
+            <LanguagesSwitch />
             <Image
               src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
               alt="Ricardo portrait"
@@ -39,7 +42,6 @@ export default function Intro() {
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
-          </motion.div>
 
           <motion.span
             className="absolute bottom-0 right-0 text-4xl"

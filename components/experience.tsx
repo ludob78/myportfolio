@@ -10,11 +10,12 @@ import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
+import { useTranslation } from 'next-i18next';
 
 export default function Experience() {
   const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
-
+  const { t, i18n } = useTranslation();
   return (
     <section id="experience" ref={ref} className="scroll-mt-28 mb-28 sm:mb-40">
       <SectionHeading>My experience</SectionHeading>
@@ -44,10 +45,10 @@ export default function Experience() {
                 fontSize: "1.5rem",
               }}
             >
-              <h3 className="font-semibold capitalize">{item.title}</h3>
-              <p className="font-normal !mt-0">{item.location}</p>
+              <h3 className="font-semibold capitalize">{t(item.title)}</h3>
+              <p className="font-normal !mt-0">{t(item.location)}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
-                {item.description}
+                {t(item.description)}
               </p>
             </VerticalTimelineElement>
           </React.Fragment>

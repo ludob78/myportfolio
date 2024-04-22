@@ -4,6 +4,7 @@ import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
+import { useTranslation } from 'next-i18next';
 
 export default function About() {
   const { ref } = useSectionInView("About");

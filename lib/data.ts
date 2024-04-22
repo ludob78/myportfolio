@@ -37,12 +37,16 @@ export const links = [
   },
 ] as const;
 
+export const locales = [
+  "en","fr"
+] as const;
+
 export const experiencesData = [
   {
     title: "IPREC Training Program",
     location: "Paris, France",
     description:
-      "I graduated after 8 months of studying computer maintenance and networks. I found immediately a job in a row with an IT services company for their client Carglass France.",
+      "I graduated after 8 months of studying computer maintenance and networks. I found immediately a job in a row with an Managed Services Provider for a french national customer Carglass France.",
     icon: React.createElement(LuGraduationCap),
     date: "2005",
   },
@@ -106,12 +110,11 @@ export const projectsData = [
 
 export const skillsData = [
   "HTML",
-  "CSS",
+  "CSS / Tailwind",
   "JavaScript / TypeScript",
   "React / Next",
   "Node.js / Express / Nest.js",
   "Git / Gitlab",
-  "Tailwind",
   "Prisma",
   "MongoDB",
   "Redux / Zustand",
