@@ -13,3 +13,11 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+.circle {
+  @apply rounded-full
+  flex
+  items-center
+  justify-center
+  font-mono
+}

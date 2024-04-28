@@ -22,9 +22,47 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-20 sm:pt-28 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
-        {/* <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div> */}
-        {/* <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div> */}
+        <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]"></div>
+        <div className="bg-[#dbd7fb] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#676394]"></div>
+        <div id="circle1" className="circle h-[10.25rem] w-[10rem] absolute top-[6rem] bg-gradient-to-r from-[#ffd700] to-[#ffc700] text-white">
+  Sun
+</div>
 
+<div className="circle h-[8rem] w-[8rem] absolute top-[2rem] left-[4rem] bg-gradient-to-r from-[#ffc996] to-[#ff6324] text-white">
+  Mercury
+</div>
+
+<div className="circle h-[12rem] w-[12rem] absolute top-[40rem] right-[6rem] bg-gradient-to-r from-[#fff8dc] to-[#ffb74d] text-gray-800">
+  Venus
+</div>
+
+<div className="circle h-[6rem] w-[6rem] absolute bottom-[8rem] left-[10rem] bg-gradient-to-r from-[#80c1ff] to-[#4da0ff] text-white">
+  Earth
+</div>
+
+<div className="circle h-[14rem] w-[14rem] absolute top-[10rem] right-[20rem] bg-gradient-to-r from-[#ff69b4] to-[#dd3872] text-white">
+  Mars
+</div>
+
+<div className="circle h-[5rem] w-[5rem] absolute bottom-[20rem] left-[5rem] bg-gradient-to-r from-[#e2f0fe] to-[#c71168] text-gray-800">
+  Jupiter
+</div>
+
+<div className="circle h-[9rem] w-[9rem] absolute top-[30rem] left-[15rem] bg-gradient-to-r from-[#fff9c4] to-[#90a47e] text-white">
+  Saturn
+</div>
+
+<div className="circle h-[7rem] w-[7rem] absolute bottom-[12rem] right-[8rem] bg-gradient-to-r from-[#ccd3d9] to[#455d7a] text-white">
+  Uranus
+</div>
+
+<div className="circle h-[11rem] w-[11rem] absolute top-[5rem] left-[25rem] bg-gradient-to-r from-[#a7ffeb] to[#274082] text-gray-800">
+  Neptune
+</div>
+
+<div className="circle h-[4rem] w-[4rem] absolute bottom-[5rem] right-[15rem] bg-gradient-to-r from-[#f7f8f9] to-[#8c99b7] text-white">
+  Pluto
+</div>
         <ThemeContextProvider>
           <ActiveLocaleContextProvider>
             <ActiveSectionContextProvider>
