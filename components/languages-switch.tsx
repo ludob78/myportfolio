@@ -19,7 +19,11 @@ const LanguagesSwitch = (props: LanguagesSwitchProps) => {
   console.log("activeLocale", locales);
   return (
     <motion.div
-      className="fixed top-5 right-5 bg-white w-[3rem] h-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] border border-white border-opacity-40 shadow-2xl rounded-full flex items-center justify-center hover:scale-[1.15] md:w-30 active:scale-105 transition-all dark:bg-gray-950 sm:w-[5rem] md:w-[7rem] p-2"
+      className="fixed 
+      bottom-[1rem] left-[5rem] 
+      md:bottom-[inherit] md:left-[inherit] md:top-[2rem] md:right-[0rem] 
+      bg-white h-[3rem] bg-opacity-80 backdrop-blur-[0.5rem] border border-white border-opacity-40 shadow-2xl rounded-full flex items-center justify-center hover:scale-[1.15] md:w-30 active:scale-105 transition-all dark:bg-gray-950 
+      w-[7rem] p-2"
       initial={{ y: -100, x: "-50%", opacity: 0 }}
       animate={{ y: 0, x: "-50%", opacity: 1 }}
     >
@@ -34,7 +38,7 @@ const LanguagesSwitch = (props: LanguagesSwitchProps) => {
             >
               <Image
                 className={clsx(
-                  "flex items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300 w-32 h-15",
+                  "flex items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300 w-[3rem] h-[3rem] md:w-32 md:h-15",
                   {
                     // "text-gray-950 dark:text-gray-200": activeLocale === locale,
                   }

@@ -22,7 +22,7 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 
 export default function Home() {
   return (
-    <main className=" m-auto flex flex-col items-center px-4">
+    <main className=" m-auto flex flex-col items-center">
       <Intro />
       <SectionDivider />
       <About />

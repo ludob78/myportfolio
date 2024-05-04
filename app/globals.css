@@ -16,6 +16,7 @@ html.dark {
 
 .circle {
   @apply rounded-full
+  hidden
   flex
   items-center
   justify-center

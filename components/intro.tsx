@@ -9,7 +9,6 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import LanguagesSwitch from "./languages-switch";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -20,7 +19,7 @@ export default function Intro() {
       ref={ref}
       id="home"
       className="py-[5rem] mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] 
-      h-full w-full bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border dark:border-gray-100 border-black/100
+      h-full w-full bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border border-gray-100 dark:border-black/100
       "
     >
       <div className="flex items-center justify-center">
@@ -34,10 +33,10 @@ export default function Intro() {
             }}
           >
           </motion.div>
-            <LanguagesSwitch />
+            
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
-              alt="Ricardo portrait"
+              src="/ludovic.jpg"
+              alt="Ludovic photo"
               width="192"
               height="192"
               quality="95"

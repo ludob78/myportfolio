@@ -28,7 +28,7 @@ export default function Methodologies() {
       id="methodology"
       ref={ref}
       className="p-[5rem] mb-28 max-w-[50rem] scroll-mt-28 text-center sm:mb-40
-      h-full w-full bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border dark:border-gray-100 border-black/100
+      h-full w-full bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border border-gray-100 dark:border-black/100
       "
     >
       <SectionHeading>Methodologies</SectionHeading>

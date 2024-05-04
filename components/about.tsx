@@ -13,7 +13,7 @@ export default function About() {
     <motion.section
       ref={ref}
       className="p-[5rem] mb-28 max-w-[50rem] text-center leading-8 sm:mb-40 scroll-mt-28
-      h-full w-full bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border dark:border-gray-100 border-black/100
+      h-full w-full bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border border-gray-100 dark:border-black/100
       "
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
