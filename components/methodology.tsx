@@ -27,7 +27,9 @@ export default function Methodologies() {
     <section
       id="methodology"
       ref={ref}
-      className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-40"
+      className="p-[5rem] mb-28 max-w-[50rem] scroll-mt-28 text-center sm:mb-40
+      h-full w-full bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border dark:border-gray-100 border-black/100
+      "
     >
       <SectionHeading>Methodologies</SectionHeading>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">

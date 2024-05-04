@@ -6,7 +6,7 @@ module.exports = {
   },
   fallbackLng: {
     default: ['en'],
-    'de-CH': ['fr'],
+    // 'de-CH': ['fr'],
   },
-  nonExplicitSupportedLngs: true,
+  // nonExplicitSupportedLngs: true,
 }

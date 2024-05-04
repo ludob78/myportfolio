@@ -6,7 +6,7 @@ import { useTranslation } from "next-i18next";
 import { locales } from "@/lib/data";
 import { motion } from "framer-motion";
 import clsx from "clsx";
-import { useActiveLocaleContext } from "@/context/active-locale-context";
+// import { useActiveLocaleContext } from "@/context/active-locale-context";
 import Image from "next/image";
 import enIcon from "@/lib/flags/en.svg";
 import frIcon from "@/lib/flags/fr.svg";
@@ -14,8 +14,8 @@ import frIcon from "@/lib/flags/fr.svg";
 type LanguagesSwitchProps = {};
 
 const LanguagesSwitch = (props: LanguagesSwitchProps) => {
-  const { activeLocale, setActiveLocale, /* setTimeOfLastClick */ } =
-    useActiveLocaleContext();
+  // const { activeLocale, setActiveLocale, /* setTimeOfLastClick */ } =
+    // useActiveLocaleContext();
   console.log("activeLocale", locales);
   return (
     <motion.div
@@ -36,17 +36,17 @@ const LanguagesSwitch = (props: LanguagesSwitchProps) => {
                 className={clsx(
                   "flex items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300 w-32 h-15",
                   {
-                    "text-gray-950 dark:text-gray-200": activeLocale === locale,
+                    // "text-gray-950 dark:text-gray-200": activeLocale === locale,
                   }
                 )}
                 src={locale === "en" ? enIcon : frIcon}
                 alt="Follow us on Twitter"
                 onClick={() => {
-                  setActiveLocale(locale);
+                  // setActiveLocale(locale);
                   // setTimeOfLastClick(Date.now());
                 }}
               />
-              {locale === activeLocale && (
+             {/*  {locale === activeLocale && (
                 <motion.span
                   className="bg-gray-100 rounded-full absolute inset-0 -z-10 dark:bg-gray-800"
                   layoutId="activeSection"
@@ -56,7 +56,7 @@ const LanguagesSwitch = (props: LanguagesSwitchProps) => {
                     damping: 30,
                   }}
                 ></motion.span>
-              )}
+              )} */}
             </motion.li>
           ))}
         </ul>

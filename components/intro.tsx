@@ -20,7 +20,8 @@ export default function Intro() {
       ref={ref}
       id="home"
       className="py-[5rem] mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem] 
-      h-full w-full bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border border-gray-100"
+      h-full w-full bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border dark:border-gray-100 border-black/100
+      "
     >
       <div className="flex items-center justify-center">
         <div className="relative">
