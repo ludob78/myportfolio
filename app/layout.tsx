@@ -63,7 +63,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
             <Footer />
             <Toaster position="top-right" />
-            <LanguagesSwitch />
+            {/* <LanguagesSwitch /> */}
             <ThemeSwitch />
           </ActiveSectionContextProvider>
           {/* </ActiveLocaleContextProvider> */}
