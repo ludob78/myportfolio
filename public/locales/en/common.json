@@ -1,3 +1,55 @@
 {
-  "intro":"Hello, I'm a bot. I can help you with your questions. What would you like to know?"
+  "intro": "Hello, I\/'m Ludovic. I\/'m a full-stack developer with 5 years of experience. I enjoy to build sites & apps in React / Node environment. Do you have a project?",
+  "about_me": "After graduating with a degree in Accounting, I decided to pursue my passion for programming. I enrolled in a coding bootcamp and learned full-stack web development. My favorite part of programming is the problem-solving aspect. I love the feeling of finally figuring out a solution to a problem. My core stack is React, Next.js, Node.js, and MongoDB. I am also familiar with TypeScript and Prisma. I am always looking to learn new technologies. I am currently looking for a full-time position as a software developer. When I'm not coding, I enjoy playing video games, watching movies, and playing with my dog. I also enjoy learning new things. I am currently learning about history and philosophy. I'm also learning how to play the guitar.",
+  "experiences": [
+    {
+      "year": "2004",
+      "type": "degree",
+      "title": "Accounting Management degree",
+      "location": "Evarise Gallois, Sartrouville France",
+      "description": "I was born in Paris, France. I lived there until I was 18 years old. I went to school there and learned how to speak French. I also learned how to play the guitar. I still visit Paris every year to see my family."
+    },
+    {
+      "year": "2005",
+      "type": "degree",
+      "title": "Senior Technician IT Maintenance degree",
+      "location": "IPREC, Paris France",
+      "description": "I was born in Paris, France. I lived there until I was 18 years old. I went to school there and learned how to speak French. I also learned how to play the guitar. I still visit Paris every year to see my family."
+    },
+    {
+      "year": "2006 - 2010",
+      "type": "xp",
+      "title": "Coordinator support IT",
+      "location": "Aprile Contractor for Carglass France, Paris France",
+      "description": "I moved to the United States when I was 18 years old. I went to college in New York City. I studied Accounting and graduated with a degree in Accounting. I also learned how to speak English. I still live in New York City."
+    },
+    {
+      "year": "2010",
+      "type": "degree",
+      "title": "Oracle PL/SQL degree",
+      "location": "Carglass France, Courbevoie France",
+      "description": "After graduating with a degree in Accounting, I decided to pursue my passion for programming. I enrolled in a coding bootcamp and learned full-stack web development. I learned how to build websites and web applications using HTML, CSS, JavaScript, React, Node.js, and MongoDB."
+    },
+    {
+      "year": "2010 - 2017",
+      "type": "xp",
+      "title": "EDI Project Officer / Software developer",
+      "location": "Carglass France, Paris France",
+      "description": "After graduating with a degree in Accounting, I decided to pursue my passion for programming. I enrolled in a coding bootcamp and learned full-stack web development. I learned how to build websites and web applications using HTML, CSS, JavaScript, React, Node.js, and MongoDB."
+    },
+    {
+      "year": "2017",
+      "type": "degree",
+      "location": "Next Formation, Paris France",
+      "title": "Software Developer degree",
+      "description": "After graduating with a degree in Accounting, I decided to pursue my passion for programming. I enrolled in a coding bootcamp and learned full-stack web development. I learned how to build websites and web applications using HTML, CSS, JavaScript, React, Node.js, and MongoDB."
+    },
+    {
+      "year": "2019 - now",
+      "location": "Future PLC, Paris, France",
+      "type": "xp",
+      "title": "Senior Software Developer",
+      "description": "After graduating with a degree in Accounting, I decided to pursue my passion for programming. I enrolled in a coding bootcamp and learned full-stack web development. I learned how to build websites and web applications using HTML, CSS, JavaScript, React, Node.js, and MongoDB."
+    }
+  ]
 }

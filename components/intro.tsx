@@ -35,7 +35,7 @@ export default function Intro() {
           </motion.div>
             
             <Image
-              src="/ludovic.jpg"
+              src="/profile_ludo.png"
               alt="Ludovic photo"
               width="192"
               height="192"
@@ -45,7 +45,7 @@ export default function Intro() {
             />
 
           <motion.span
-            className="absolute bottom-0 right-0 text-4xl"
+            className="absolute bottom-0 right-0 text-4xl w-[0.6rem]"
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -55,7 +55,7 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            👋
+            🛠
           </motion.span>
         </div>
       </div>
