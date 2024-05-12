@@ -22,5 +22,5 @@
 
 ## Run the application
 
-```pnmp install```
-```pnmp run dev```
+```pnpm install```
+```pnpm run dev```
