@@ -8,7 +8,7 @@ import { useTranslation } from 'next-i18next';
 
 export default function About() {
   const { ref } = useSectionInView("About");
-
+  const {} = useTranslation()
   return (
     <motion.section
       ref={ref}

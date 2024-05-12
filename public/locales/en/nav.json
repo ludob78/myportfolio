@@ -1,0 +1,28 @@
+{
+  "nav_items":[
+    {
+      "name": "Home",
+      "hash": "#home"
+    },
+    {
+      "name": "About",
+      "hash": "#about"
+    },
+    {
+      "name": "Skills",
+      "hash": "#skills"
+    },
+    {
+      "name": "Methodologies",
+      "hash": "#methodology"
+    },
+    {
+      "name": "Experience",
+      "hash": "#experience"
+    },
+    {
+      "name": "Contact",
+      "hash": "#contact"
+    }
+  ]
+}

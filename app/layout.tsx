@@ -7,7 +7,7 @@ import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
-import { appWithTranslation } from "next-i18next";
+// import { appWithTranslation } from "next-i18next";
 import LanguagesSwitch from "../components/languages-switch";
 
 const inter = Inter({ subsets: ["vietnamese"] });
@@ -55,7 +55,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
         <div id="Pluto" className="hidden md:block circle h-[4rem] w-[4rem] absolute md:bottom-[160rem] md:right-[34rem] bg-gradient-to-r from-[#f7f8f9] to-[#8c99b7] text-white">
         </div>
         <ThemeContextProvider>
-          {/* <ActiveLocaleContextProvider> */}
+          <ActiveLocaleContextProvider>
           <ActiveSectionContextProvider>
             <div className="flex flex-column spp">
               <SideNav />
@@ -63,10 +63,10 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
             </div>
             <Footer />
             <Toaster position="top-right" />
-            {/* <LanguagesSwitch /> */}
+            <LanguagesSwitch />
             <ThemeSwitch />
           </ActiveSectionContextProvider>
-          {/* </ActiveLocaleContextProvider> */}
+          </ActiveLocaleContextProvider>
         </ThemeContextProvider>
       </body>
     </html>

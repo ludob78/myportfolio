@@ -6,7 +6,7 @@ import { useTranslation } from "next-i18next";
 import { locales } from "@/lib/data";
 import { motion } from "framer-motion";
 import clsx from "clsx";
-// import { useActiveLocaleContext } from "@/context/active-locale-context";
+import { useActiveLocaleContext } from "@/context/active-locale-context";
 import Image from "next/image";
 import enIcon from "@/lib/flags/en.svg";
 import frIcon from "@/lib/flags/fr.svg";
@@ -14,8 +14,8 @@ import frIcon from "@/lib/flags/fr.svg";
 type LanguagesSwitchProps = {};
 
 const LanguagesSwitch = (props: LanguagesSwitchProps) => {
-  // const { activeLocale, setActiveLocale, /* setTimeOfLastClick */ } =
-    // useActiveLocaleContext();
+  const { activeLocale, setActiveLocale, /* setTimeOfLastClick */ } =
+    useActiveLocaleContext();
   console.log("activeLocale", locales);
   return (
     <motion.div
@@ -44,7 +44,7 @@ const LanguagesSwitch = (props: LanguagesSwitchProps) => {
                   }
                 )}
                 src={locale === "en" ? enIcon : frIcon}
-                alt="Follow us on Twitter"
+                alt="Language-icon"
                 onClick={() => {
                   // setActiveLocale(locale);
                   // setTimeOfLastClick(Date.now());

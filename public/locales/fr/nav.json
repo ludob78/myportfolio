@@ -1,0 +1,28 @@
+{
+  "nav_items":[
+    {
+      "name": "Home",
+      "hash": "#home"
+    },
+    {
+      "name": "A propos de moi",
+      "hash": "#about"
+    },
+    {
+      "name": "Compétences",
+      "hash": "#skills"
+    },
+    {
+      "name": "Méthodologies",
+      "hash": "#methodology"
+    },
+    {
+      "name": "Expériences",
+      "hash": "#experience"
+    },
+    {
+      "name": "Contactez-moi",
+      "hash": "#contact"
+    }
+  ]
+}
