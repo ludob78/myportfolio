@@ -27,8 +27,8 @@ export default function Methodologies() {
     <section
       id="methodology"
       ref={ref}
-      className="p-[5rem] mb-28 max-w-[50rem] scroll-mt-28 text-center sm:mb-40
-      h-full w-full bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 border border-gray-100 dark:border-black/100
+      className="p-[2rem] md:p-[5rem] mb-28 max-w-[50rem] scroll-mt-28 text-center sm:mb-40
+      h-full w-full bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0 md:border border-gray-100 dark:border-black/100
       "
     >
       <SectionHeading>Methodologies</SectionHeading>
