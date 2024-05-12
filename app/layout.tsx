@@ -1,4 +1,3 @@
-"use client"
 import SideNav from "@/components/sidenav";
 import "./globals.css";
 import { Inter } from "next/font/google";
